@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e89d4dd-81cc-43ae-9c16-ad0c3422543f" name="Default Changelist" comment="" />
+    <list default="true" id="4e89d4dd-81cc-43ae-9c16-ad0c3422543f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/study/datajpa/repository/TeamRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/datajpa/repository/MemberJpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/datajpa/repository/MemberJpaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/study/datajpa/repository/MemberJpaRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/study/datajpa/repository/MemberJpaRepositoryTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,8 +41,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -45,6 +50,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aIuohJSK1te5NvJJ6Rk6WG1IHz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -69,34 +75,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="study.datajpa.entity" />
       <recent name="study.datajpa.repository" />
+      <recent name="study.datajpa.entity" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MemberTest">
-    <configuration name="DataJpaApplicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;study.datajpa.DataJpaApplicationTests&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.MemberJpaRepositoryTest.basicCRUD">
     <configuration name="MemberJpaRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-jpa.test" />
       <extension name="coverage">
@@ -108,6 +94,22 @@
       <option name="PACKAGE_NAME" value="study.datajpa.repository" />
       <option name="MAIN_CLASS_NAME" value="study.datajpa.repository.MemberJpaRepositoryTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberJpaRepositoryTest.basicCRUD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-jpa.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.datajpa.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="study.datajpa.repository" />
+      <option name="MAIN_CLASS_NAME" value="study.datajpa.repository.MemberJpaRepositoryTest" />
+      <option name="METHOD_NAME" value="basicCRUD" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MemberJpaRepositoryTest.basicCRUD" />
         <item itemvalue="JUnit.MemberTest" />
         <item itemvalue="JUnit.MemberRepositoryTest" />
         <item itemvalue="JUnit.MemberJpaRepositoryTest" />
         <item itemvalue="JUnit.MemberJpaRepositoryTest.testMember" />
-        <item itemvalue="Gradle.DataJpaApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -191,12 +193,25 @@
       <option name="presentableId" value="Default" />
       <updated>1586435605507</updated>
       <workItem from="1586435609362" duration="1691000" />
-      <workItem from="1586437931728" duration="4240000" />
+      <workItem from="1586437931728" duration="4647000" />
+      <workItem from="1586483102753" duration="1634000" />
     </task>
+    <task id="LOCAL-00001" summary="Init : Project Setting &amp; Develop Domain Entity">
+      <created>1586442646147</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586442646147</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init : Project Setting &amp; Develop Domain Entity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init : Project Setting &amp; Develop Domain Entity" />
   </component>
   <component name="WindowStateProjectService">
     <state x="496" y="237" key="#Assign_Data_Sources" timestamp="1586440537021">
@@ -215,54 +230,71 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="745" y="467" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1586440330679" />
+    <state x="479" y="170" key="CommitChangelistDialog2" timestamp="1586442645936">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="479" y="170" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1586442645936" />
     <state x="761" y="472" key="Github.ShareDialog" timestamp="1586442568574">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="761" y="472" key="Github.ShareDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1586442568574" />
-    <state width="1750" height="303" key="GridCell.Tab.0.bottom" timestamp="1586441714373">
+    <state width="1878" height="391" key="GridCell.Tab.0.bottom" timestamp="1586486659130">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state width="875" height="373" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1586442926523" />
+    <state width="1878" height="391" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586486659130" />
+    <state width="1878" height="391" key="GridCell.Tab.0.center" timestamp="1586486659129">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state width="875" height="373" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1586442926523" />
+    <state width="1878" height="391" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586486659129" />
+    <state width="1878" height="391" key="GridCell.Tab.0.left" timestamp="1586486659129">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state width="875" height="373" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1586442926523" />
+    <state width="1878" height="391" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586486659129" />
+    <state width="1878" height="391" key="GridCell.Tab.0.right" timestamp="1586486659130">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state width="875" height="373" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1586442926523" />
+    <state width="1878" height="391" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586486659130" />
+    <state width="875" height="373" key="GridCell.Tab.1.bottom" timestamp="1586442926524">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="303" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1586441714373" />
-    <state width="1750" height="303" key="GridCell.Tab.0.center" timestamp="1586441714372">
+    <state width="875" height="373" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1586442926524" />
+    <state width="875" height="373" key="GridCell.Tab.1.center" timestamp="1586442926524">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="303" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1586441714372" />
-    <state width="1750" height="303" key="GridCell.Tab.0.left" timestamp="1586441714372">
+    <state width="875" height="373" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1586442926524" />
+    <state width="875" height="373" key="GridCell.Tab.1.left" timestamp="1586442926524">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="303" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1586441714372" />
-    <state width="1750" height="303" key="GridCell.Tab.0.right" timestamp="1586441714373">
+    <state width="875" height="373" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1586442926524" />
+    <state width="875" height="373" key="GridCell.Tab.1.right" timestamp="1586442926524">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="303" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1586441714373" />
-    <state width="875" height="373" key="GridCell.Tab.1.bottom" timestamp="1586439304592">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state width="875" height="373" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1586439304592" />
-    <state width="875" height="373" key="GridCell.Tab.1.center" timestamp="1586439304591">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state width="875" height="373" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1586439304591" />
-    <state width="875" height="373" key="GridCell.Tab.1.left" timestamp="1586439304591">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state width="875" height="373" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1586439304591" />
-    <state width="875" height="373" key="GridCell.Tab.1.right" timestamp="1586439304592">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state width="875" height="373" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1586439304592" />
+    <state width="875" height="373" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1586442926524" />
     <state x="397" y="210" key="SettingsEditor" timestamp="1586440668778">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="397" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1586440668778" />
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1586442662519">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1586442662519" />
     <state x="522" y="236" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586441522983">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="522" y="236" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1586441522983" />
-    <state x="666" y="321" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586441201291">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state x="2557" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586486234957">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2557" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586486234957" />
+    <state x="2506" y="310" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586486230933">
+      <screen x="1792" y="23" width="1920" height="1057" />
     </state>
     <state x="666" y="321" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1586441201291" />
+    <state x="2506" y="310" key="com.intellij.testIntegration.createTest.CreateTestDialog/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586486230933" />
     <state x="658" y="194" key="refactoring.ChangeSignatureDialog" timestamp="1586441322300">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -277,7 +309,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/study/datajpa/repository/MemberJpaRepositoryTest.java</url>
-          <line>16</line>
+          <line>18</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
