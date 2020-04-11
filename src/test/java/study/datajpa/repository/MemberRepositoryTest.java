@@ -11,6 +11,7 @@ import study.datajpa.entity.Team;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.*;
 
@@ -143,4 +144,42 @@ class MemberRepositoryTest {
             System.out.println("member = " + member);
         }
     }
+
+    @Test
+    public void returnType() {
+        Member m1 = new Member("AAA", 10);
+        Member m2 = new Member("BBB", 20);
+        memberRepository.save(m1);
+        memberRepository.save(m2);
+
+        List<Member> aaa = memberRepository.findListByUsername("AAA");
+        Member findMember = memberRepository.findMemberByUsername("AAA");
+        Optional<Member> optionalMember = memberRepository.findOptionalByUsername("AAA");
+        System.out.println("member = " + aaa);
+        System.out.println("member = " + findMember);
+        System.out.println("member = " + optionalMember);
+
+        // Null이 아니다, 빈 컬렉션을 반환한다.
+        List<Member> entityCollectionTest = memberRepository.findListByUsername("Entity Collection Test");
+        System.out.println("member = " + entityCollectionTest.size());
+        System.out.println("member = " + entityCollectionTest);
+
+        /*
+            SingleResult 일 때
+            JPA는 결과가 없으면, NoResultException 인데
+            Spring Data JPA는 결과가 없으면 try-catch를 통해 Null을 반환한다.
+            -> 모르겠으면 Java 1.8의 Optional 을 적극 활용하자 !
+
+            +) 결과가 두 개 이상이면 NonUniqueResultException
+         */
+        Member noResult = memberRepository.findMemberByUsername("noResult");
+        System.out.println("member = " + noResult);
+
+
+
+
+
+
+    }
+
 }
