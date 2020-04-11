@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e89d4dd-81cc-43ae-9c16-ad0c3422543f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/datajpa/dto/MemberDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/study/datajpa/repository/MemberRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/study/datajpa/repository/MemberRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/study/datajpa/repository/MemberRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/study/datajpa/repository/MemberRepositoryTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/study/datajpa/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/datajpa/repository/MemberRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/study/datajpa/repository/MemberRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/study/datajpa/repository/MemberRepositoryTest.java" afterDir="false" />
     </list>
@@ -82,8 +83,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MemberRepositoryTest.findMemberDto">
-    <configuration name="MemberJpaRepositoryTest.testNamedQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MemberRepositoryTest.findByNames">
+    <configuration name="MemberRepositoryTest.findByNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-jpa.test" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +93,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="study.datajpa.repository" />
-      <option name="MAIN_CLASS_NAME" value="study.datajpa.repository.MemberJpaRepositoryTest" />
-      <option name="METHOD_NAME" value="testNamedQuery" />
+      <option name="MAIN_CLASS_NAME" value="study.datajpa.repository.MemberRepositoryTest" />
+      <option name="METHOD_NAME" value="findByNames" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MemberRepositoryTest.findByNames" />
         <item itemvalue="JUnit.MemberRepositoryTest.findMemberDto" />
         <item itemvalue="JUnit.MemberRepositoryTest.findUsernameList" />
         <item itemvalue="JUnit.MemberRepositoryTest.testQuery" />
         <item itemvalue="JUnit.MemberRepositoryTest.namedQuery" />
-        <item itemvalue="JUnit.MemberJpaRepositoryTest.testNamedQuery" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +199,7 @@
       <workItem from="1586435609362" duration="1691000" />
       <workItem from="1586437931728" duration="4647000" />
       <workItem from="1586483102753" duration="2451000" />
-      <workItem from="1586496706825" duration="7333000" />
+      <workItem from="1586496706825" duration="9097000" />
     </task>
     <task id="LOCAL-00001" summary="Init : Project Setting &amp; Develop Domain Entity">
       <created>1586442646147</created>
@@ -246,28 +247,28 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="761" y="472" key="Github.ShareDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1586442568574" />
-    <state width="1750" height="374" key="GridCell.Tab.0.bottom" timestamp="1586588550532">
+    <state width="1750" height="374" key="GridCell.Tab.0.bottom" timestamp="1586590671911">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="374" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1586588550532" />
+    <state width="1750" height="374" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1586590671911" />
     <state width="1750" height="391" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586487500718" />
     <state width="1878" height="374" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586508780462" />
-    <state width="1750" height="374" key="GridCell.Tab.0.center" timestamp="1586588550531">
+    <state width="1750" height="374" key="GridCell.Tab.0.center" timestamp="1586590671911">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="374" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1586588550531" />
+    <state width="1750" height="374" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1586590671911" />
     <state width="1750" height="391" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586487500717" />
     <state width="1878" height="374" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586508780462" />
-    <state width="1750" height="374" key="GridCell.Tab.0.left" timestamp="1586588550531">
+    <state width="1750" height="374" key="GridCell.Tab.0.left" timestamp="1586590671910">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="374" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1586588550531" />
+    <state width="1750" height="374" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1586590671910" />
     <state width="1750" height="391" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586487500717" />
     <state width="1878" height="374" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586508780461" />
-    <state width="1750" height="374" key="GridCell.Tab.0.right" timestamp="1586588550531">
+    <state width="1750" height="374" key="GridCell.Tab.0.right" timestamp="1586590671911">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="374" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1586588550531" />
+    <state width="1750" height="374" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1586590671911" />
     <state width="1750" height="391" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586487500718" />
     <state width="1878" height="374" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586508780462" />
     <state width="875" height="373" key="GridCell.Tab.1.bottom" timestamp="1586442926524">
