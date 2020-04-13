@@ -85,7 +85,23 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MemberRepositoryTest.paging">
+  <component name="RunManager" selected="JUnit.MemberRepositoryTest.bulkUpdate">
+    <configuration name="MemberJpaRepositoryTest.bulkUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-jpa.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.datajpa.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="study.datajpa.repository" />
+      <option name="MAIN_CLASS_NAME" value="study.datajpa.repository.MemberJpaRepositoryTest" />
+      <option name="METHOD_NAME" value="bulkUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MemberJpaRepositoryTest.paging" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-jpa.test" />
       <extension name="coverage">
@@ -102,7 +118,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberRepositoryTest.findByNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MemberRepositoryTest.bulkUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-jpa.test" />
       <extension name="coverage">
         <pattern>
@@ -112,23 +128,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="study.datajpa.repository" />
       <option name="MAIN_CLASS_NAME" value="study.datajpa.repository.MemberRepositoryTest" />
-      <option name="METHOD_NAME" value="findByNames" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MemberRepositoryTest.findMemberDto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-jpa.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="study.datajpa.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="study.datajpa.repository" />
-      <option name="MAIN_CLASS_NAME" value="study.datajpa.repository.MemberRepositoryTest" />
-      <option name="METHOD_NAME" value="findMemberDto" />
+      <option name="METHOD_NAME" value="bulkUpdate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MemberRepositoryTest.bulkUpdate" />
+        <item itemvalue="JUnit.MemberJpaRepositoryTest.bulkUpdate" />
         <item itemvalue="JUnit.MemberRepositoryTest.paging" />
         <item itemvalue="JUnit.MemberJpaRepositoryTest.paging" />
         <item itemvalue="JUnit.MemberRepositoryTest.returnType" />
-        <item itemvalue="JUnit.MemberRepositoryTest.findByNames" />
-        <item itemvalue="JUnit.MemberRepositoryTest.findMemberDto" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +201,7 @@
       <workItem from="1586435609362" duration="1691000" />
       <workItem from="1586437931728" duration="4647000" />
       <workItem from="1586483102753" duration="2451000" />
-      <workItem from="1586496706825" duration="19474000" />
+      <workItem from="1586496706825" duration="21159000" />
     </task>
     <task id="LOCAL-00001" summary="Init : Project Setting &amp; Develop Domain Entity">
       <created>1586442646147</created>
@@ -249,30 +249,30 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="761" y="472" key="Github.ShareDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1586442568574" />
-    <state width="1878" height="387" key="GridCell.Tab.0.bottom" timestamp="1586750304243">
+    <state width="1878" height="387" key="GridCell.Tab.0.bottom" timestamp="1586753696712">
       <screen x="1792" y="23" width="1920" height="1057" />
     </state>
     <state width="1750" height="390" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1586595417334" />
     <state width="1750" height="391" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586487500718" />
-    <state width="1878" height="387" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586750304243" />
-    <state width="1878" height="387" key="GridCell.Tab.0.center" timestamp="1586750304242">
+    <state width="1878" height="387" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586753696712" />
+    <state width="1878" height="387" key="GridCell.Tab.0.center" timestamp="1586753696712">
       <screen x="1792" y="23" width="1920" height="1057" />
     </state>
     <state width="1750" height="390" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1586595417333" />
     <state width="1750" height="391" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586487500717" />
-    <state width="1878" height="387" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586750304242" />
-    <state width="1878" height="387" key="GridCell.Tab.0.left" timestamp="1586750304241">
+    <state width="1878" height="387" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586753696712" />
+    <state width="1878" height="387" key="GridCell.Tab.0.left" timestamp="1586753696711">
       <screen x="1792" y="23" width="1920" height="1057" />
     </state>
     <state width="1750" height="390" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1586595417332" />
     <state width="1750" height="391" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586487500717" />
-    <state width="1878" height="387" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586750304241" />
-    <state width="1878" height="387" key="GridCell.Tab.0.right" timestamp="1586750304242">
+    <state width="1878" height="387" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586753696711" />
+    <state width="1878" height="387" key="GridCell.Tab.0.right" timestamp="1586753696712">
       <screen x="1792" y="23" width="1920" height="1057" />
     </state>
     <state width="1750" height="390" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1586595417333" />
     <state width="1750" height="391" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586487500718" />
-    <state width="1878" height="387" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586750304242" />
+    <state width="1878" height="387" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586753696712" />
     <state width="875" height="373" key="GridCell.Tab.1.bottom" timestamp="1586442926524">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -317,6 +317,10 @@
     </state>
     <state x="666" y="321" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1586441201291" />
     <state x="2506" y="310" key="com.intellij.testIntegration.createTest.CreateTestDialog/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586486230933" />
+    <state x="2361" y="139" width="782" height="825" key="find.popup" timestamp="1586753017313">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2361" y="139" width="782" height="825" key="find.popup/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586753017313" />
     <state x="2411" y="350" key="git4idea.merge.GitPullDialog" timestamp="1586487256529">
       <screen x="1792" y="23" width="1920" height="1057" />
     </state>
