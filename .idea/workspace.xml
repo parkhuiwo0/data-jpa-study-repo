@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4e89d4dd-81cc-43ae-9c16-ad0c3422543f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/study/datajpa/repository/MemberRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/study/datajpa/repository/MemberRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/study/datajpa/repository/MemberRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/study/datajpa/repository/MemberRepositoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/study/datajpa/repository/MemberJpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/datajpa/repository/MemberJpaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/datajpa/entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/datajpa/entity/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/study/datajpa/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/datajpa/repository/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/study/datajpa/repository/MemberJpaRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/study/datajpa/repository/MemberJpaRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/study/datajpa/repository/MemberRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/study/datajpa/repository/MemberRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +82,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MemberRepositoryTest.bulkUpdate">
+  <component name="RunManager" selected="JUnit.MemberRepositoryTest.findMemberLazy">
     <configuration name="MemberJpaRepositoryTest.bulkUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-jpa.test" />
       <extension name="coverage">
@@ -134,6 +131,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MemberRepositoryTest.findMemberLazy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-jpa.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.datajpa.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="study.datajpa.repository" />
+      <option name="MAIN_CLASS_NAME" value="study.datajpa.repository.MemberRepositoryTest" />
+      <option name="METHOD_NAME" value="findMemberLazy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MemberRepositoryTest.paging" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-jpa.test" />
       <extension name="coverage">
@@ -150,29 +163,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberRepositoryTest.returnType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-jpa.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="study.datajpa.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="study.datajpa.repository" />
-      <option name="MAIN_CLASS_NAME" value="study.datajpa.repository.MemberRepositoryTest" />
-      <option name="METHOD_NAME" value="returnType" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MemberRepositoryTest.findMemberLazy" />
         <item itemvalue="JUnit.MemberRepositoryTest.bulkUpdate" />
         <item itemvalue="JUnit.MemberJpaRepositoryTest.bulkUpdate" />
         <item itemvalue="JUnit.MemberRepositoryTest.paging" />
         <item itemvalue="JUnit.MemberJpaRepositoryTest.paging" />
-        <item itemvalue="JUnit.MemberRepositoryTest.returnType" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +198,8 @@
       <workItem from="1586435609362" duration="1691000" />
       <workItem from="1586437931728" duration="4647000" />
       <workItem from="1586483102753" duration="2451000" />
-      <workItem from="1586496706825" duration="21159000" />
+      <workItem from="1586496706825" duration="24771000" />
+      <workItem from="1586779244369" duration="1882000" />
     </task>
     <task id="LOCAL-00001" summary="Init : Project Setting &amp; Develop Domain Entity">
       <created>1586442646147</created>
@@ -249,30 +247,30 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="761" y="472" key="Github.ShareDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1586442568574" />
-    <state width="1878" height="387" key="GridCell.Tab.0.bottom" timestamp="1586753696712">
-      <screen x="1792" y="23" width="1920" height="1057" />
+    <state width="1750" height="404" key="GridCell.Tab.0.bottom" timestamp="1586781005110">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="390" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1586595417334" />
+    <state width="1750" height="404" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1586781005110" />
     <state width="1750" height="391" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586487500718" />
-    <state width="1878" height="387" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586753696712" />
-    <state width="1878" height="387" key="GridCell.Tab.0.center" timestamp="1586753696712">
-      <screen x="1792" y="23" width="1920" height="1057" />
+    <state width="1878" height="387" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586753839579" />
+    <state width="1750" height="404" key="GridCell.Tab.0.center" timestamp="1586781005110">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="390" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1586595417333" />
+    <state width="1750" height="404" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1586781005110" />
     <state width="1750" height="391" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586487500717" />
-    <state width="1878" height="387" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586753696712" />
-    <state width="1878" height="387" key="GridCell.Tab.0.left" timestamp="1586753696711">
-      <screen x="1792" y="23" width="1920" height="1057" />
+    <state width="1878" height="387" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586753839578" />
+    <state width="1750" height="404" key="GridCell.Tab.0.left" timestamp="1586781005109">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="390" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1586595417332" />
+    <state width="1750" height="404" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1586781005109" />
     <state width="1750" height="391" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586487500717" />
-    <state width="1878" height="387" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586753696711" />
-    <state width="1878" height="387" key="GridCell.Tab.0.right" timestamp="1586753696712">
-      <screen x="1792" y="23" width="1920" height="1057" />
+    <state width="1878" height="387" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586753839578" />
+    <state width="1750" height="404" key="GridCell.Tab.0.right" timestamp="1586781005110">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="390" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1586595417333" />
+    <state width="1750" height="404" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1586781005110" />
     <state width="1750" height="391" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586487500718" />
-    <state width="1878" height="387" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586753696712" />
+    <state width="1878" height="387" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586753839579" />
     <state width="875" height="373" key="GridCell.Tab.1.bottom" timestamp="1586442926524">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -293,10 +291,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="397" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1586440668778" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1586750280038">
-      <screen x="1792" y="23" width="1920" height="1057" />
+    <state width="500" height="462" key="SwitcherDM" timestamp="1586781323034">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="500" height="462" key="SwitcherDM/0.23.1792.1097@0.23.1792.1097" timestamp="1586588679402" />
+    <state width="500" height="462" key="SwitcherDM/0.23.1792.1097@0.23.1792.1097" timestamp="1586781323034" />
     <state width="500" height="445" key="SwitcherDM/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1586750280038" />
     <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1586442662519">
       <screen x="0" y="23" width="1792" height="1097" />
