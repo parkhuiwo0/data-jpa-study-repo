@@ -11,11 +11,5 @@
     - spring-boot-starter  
     - spring-boot-starter-web  
     - logback, slf4j  
-    
-- Test library :   
-    - junit5(jupiter)  
-    - mockito  
-    - assertj  
-    - spring-test  
 
 - Database : h2 database
