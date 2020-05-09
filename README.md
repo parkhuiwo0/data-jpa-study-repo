@@ -13,4 +13,3 @@
     - logback, slf4j  
 
 - Database : h2 database
-.
